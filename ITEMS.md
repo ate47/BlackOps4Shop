@@ -6,7 +6,9 @@
     - [Camos](#camos)
     - [Charms](#charms)
     - [Death effects](#death-effects)
-  - [Premium shop items](#premium-shop-items)
+  - [Premium shop](#premium-shop)
+    - [Prices](#prices)
+    - [Items](#items)
 
 ## Loot boxes items
 
@@ -146,9 +148,29 @@ Total count: `2020`
 | Nature     | 23    |
 | Black Hole | 23    |
 
-## Premium shop items
+## Premium shop
 
-Cost: `2975`
+### Prices
+
+Except with bundles, prices are pretty much the same.
+
+| Type               | Price |
+| ------------------ | ----- |
+| MK2                | 60    |
+| Mastercraft        | 52-40 |
+| Epic skin          | 30    |
+| Blackout character | 30-24 |
+| Non epic skin      | 15    |
+| Reactive camo      | 25-20 |
+| Basic Camo         | 15    |
+| Gesture Bundles    | 12    |
+| Gesture            | 12-4  |
+| Jump pack          | 9-5   |
+| War paint          | 4     |
+
+### Items
+
+Total cost: `2975`
 
 | Name                  | Count |
 | --------------------- | ----- |
