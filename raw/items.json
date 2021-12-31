@@ -1,5 +1,876 @@
 {
-  "shop_items": [],
+  "shop_items": [
+    {
+      "price": 65,
+      "name": "Weapons rain",
+      "content": [
+        { "type": "mastercraft", "count": 2 },
+        { "type": "camo", "count": 2, "typeinfo": "reactive" },
+        { "type": "mkii", "count": 2 },
+        { "type": "stick", "count": 5, "typeinfo": "set" },
+        { "type": "card", "count": 5, "typeinfo": "set" },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 60,
+      "name": "ABR 223 MKII",
+      "content": [
+        { "type": "mkii", "count": 1 },
+        { "type": "nodupe", "count": 1 }
+      ]
+    },
+    {
+      "price": 60,
+      "name": "Paladin MKII",
+      "content": [
+        { "type": "mkii", "count": 1 },
+        { "type": "nodupe", "count": 1 }
+      ]
+    },
+    {
+      "price": 60,
+      "name": "KN-57 MKII",
+      "content": [
+        { "type": "mkii", "count": 1 },
+        { "type": "nodupe", "count": 2 }
+      ]
+    },
+    {
+      "price": 52,
+      "name": "Vengeance d'ahab",
+      "content": [
+        { "type": "stick", "count": 1, "typeinfo": "global" },
+        { "type": "gesture", "count": 1 },
+        { "type": "reticle", "count": 1 },
+        { "type": "mastercraft", "count": 1 },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 52,
+      "name": "Black plague",
+      "content": [
+        { "type": "mastercraft", "count": 1 },
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 1, "typeinfo": "global" },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 50,
+      "name": "Replacer",
+      "content": [
+        { "type": "character", "count": 1 },
+        { "type": "mkii", "count": 1 },
+        { "type": "nodupe", "count": 1 }
+      ]
+    },
+    {
+      "price": 45,
+      "name": "Titan MKII S0",
+      "content": [
+        { "type": "mkii", "count": 1 },
+        { "type": "mastercraft", "count": 1 },
+        { "type": "camo", "count": 1, "typeinfo": "reactive" },
+        { "type": "nodupe", "count": 1 }
+      ]
+    },
+    {
+      "price": 45,
+      "name": "Zero G",
+      "content": [
+        { "type": "mastercraft", "count": 1 },
+        { "type": "stick", "count": 2, "typeinfo": "global" },
+        { "type": "skin_body", "typeinfo": "fireBreak", "count": 1 },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 40,
+      "name": "Patrouille perdue",
+      "content": [
+        { "type": "mastercraft", "count": 1 },
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 1, "typeinfo": "global" },
+        { "type": "card", "count": 1, "typeinfo": "global" }
+      ]
+    },
+    {
+      "price": 40,
+      "name": "Bourreau",
+      "content": [
+        { "type": "warpaint", "count": 1 },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "stick", "count": 1, "typeinfo": "global" },
+        { "type": "mastercraft", "count": 1 }
+      ]
+    },
+    {
+      "price": 40,
+      "name": "Cocktail Venimeux",
+      "content": [
+        { "type": "mastercraft", "count": 1 },
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 1, "typeinfo": "global" },
+        { "type": "card", "count": 1, "typeinfo": "global" }
+      ]
+    },
+    {
+      "price": 36,
+      "name": "Terreur",
+      "content": [
+        { "type": "skin_body", "typeinfo": "ruin", "count": 1 },
+        { "type": "camo", "count": 1, "typeinfo": "basic" }
+      ]
+    },
+    {
+      "price": 35,
+      "name": "Lion",
+      "content": [
+        { "type": "mastercraft", "count": 1 },
+        { "type": "nodupe", "count": 2 }
+      ]
+    },
+    {
+      "price": 35,
+      "name": "Briseur de menage",
+      "content": [
+        { "type": "knife", "count": 1 },
+        { "type": "nodupe", "count": 2 }
+      ]
+    },
+    {
+      "price": 35,
+      "name": "Marée montante",
+      "content": [
+        { "type": "knife", "count": 1 },
+        { "type": "nodupe", "count": 2 }
+      ]
+    },
+    {
+      "price": 35,
+      "name": "Cloche",
+      "content": [
+        { "type": "knife", "count": 1 },
+        { "type": "nodupe", "count": 2 }
+      ]
+    },
+    {
+      "price": 35,
+      "name": "Outrider Serie 6",
+      "content": [
+        { "type": "knife", "count": 1 },
+        { "type": "nodupe", "count": 2 },
+        { "type": "gesture", "count": 1 }
+      ]
+    },
+    {
+      "price": 35,
+      "name": "Revers",
+      "content": [
+        { "type": "knife", "count": 1 },
+        { "type": "gesture", "count": 1 },
+        { "type": "nodupe", "count": 2 }
+      ]
+    },
+    {
+      "price": 35,
+      "name": "Clan chef",
+      "content": [
+        { "type": "boost", "count": 1 },
+        { "type": "skin_body", "typeinfo": "ruin", "count": 1 }
+      ]
+    },
+    {
+      "price": 35,
+      "name": "ICR MKII",
+      "content": [
+        { "type": "camo", "count": 1, "typeinfo": "reactive" },
+        { "type": "mkii", "count": 1 },
+        { "type": "mastercraft", "count": 1 },
+        { "type": "nodupe", "count": 1 }
+      ]
+    },
+    {
+      "price": 30,
+      "name": "Seducteur",
+      "content": [{ "type": "character", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Excalibur",
+      "content": [{ "type": "skin_body", "typeinfo": "battery", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Evasion",
+      "content": [{ "type": "skin_body", "typeinfo": "ruin", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Aigle du désert",
+      "content": [{ "type": "skin_body", "typeinfo": "prophet", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Astronaute",
+      "content": [{ "type": "skin_body", "typeinfo": "firebreak", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Voleur de carats",
+      "content": [{ "type": "skin_body", "typeinfo": "firebreak", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Sportif",
+      "content": [{ "type": "skin_body", "typeinfo": "ruin", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Ninja",
+      "content": [{ "type": "skin_body", "typeinfo": "spectre", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Chef scout",
+      "content": [{ "type": "skin_body", "typeinfo": "nomad", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Espace sombre",
+      "content": [{ "type": "skin_body", "typeinfo": "prophet", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Gachette",
+      "content": [
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 2, "typeinfo": "global" },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "skin_body", "typeinfo": "seraph", "count": 1 },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 30,
+      "name": "Miséricordieux",
+      "content": [{ "type": "skin_body", "typeinfo": "torque", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Broyeur",
+      "content": [{ "type": "skin_body", "typeinfo": "reaper", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Moustache",
+      "content": [
+        { "type": "skin_body", "typeinfo": "crash", "count": 1 },
+        { "type": "gesture", "count": 1 },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "stick", "count": 2, "typeinfo": "global" },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 30,
+      "name": "Gallowglass",
+      "content": [{ "type": "skin_body", "typeinfo": "torque", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Trejo",
+      "content": [{ "type": "character", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Flibustier",
+      "content": [{ "type": "skin_body", "typeinfo": "outrider", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Russman",
+      "content": [
+        { "type": "character", "count": 1 },
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 1, "typeinfo": "global" }
+      ]
+    },
+    {
+      "price": 30,
+      "name": "L'appat",
+      "content": [
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 2, "typeinfo": "global" },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "skin_body", "typeinfo": "nomad", "count": 1 }
+      ]
+    },
+    {
+      "price": 30,
+      "name": "Stuhlinger",
+      "content": [
+        { "type": "character", "count": 1 },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 30,
+      "name": "Cheerleader",
+      "content": [{ "type": "skin_body", "typeinfo": "outrider", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Sergei",
+      "content": [
+        { "type": "character", "count": 1 },
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 1, "typeinfo": "global" },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 30,
+      "name": "Richtofen",
+      "content": [
+        { "type": "character", "count": 1 },
+        { "type": "stick", "count": 5, "typeinfo": "set" },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 30,
+      "name": "Spectral",
+      "content": [{ "type": "skin_body", "typeinfo": "spectre", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Cap'tain",
+      "content": [{ "type": "skin_body", "typeinfo": "prophet", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Chaman",
+      "content": [{ "type": "skin_body", "typeinfo": "crash", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Magmameton",
+      "content": [{ "type": "skin_body", "typeinfo": "firebreak", "count": 1 }]
+    },
+    {
+      "price": 30,
+      "name": "Kitty six",
+      "content": [
+        { "type": "skin_body", "typeinfo": "seraph", "count": 1 },
+        { "type": "charm", "count": 2 }
+      ]
+    },
+    {
+      "price": 30,
+      "name": "Gangster",
+      "content": [{ "type": "skin_body", "typeinfo": "battery", "count": 1 }]
+    },
+    {
+      "price": 25,
+      "name": "Encoded",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "reactive" }]
+    },
+    {
+      "price": 25,
+      "name": "Incandescent",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "reactive" }]
+    },
+    {
+      "price": 25,
+      "name": "115",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "reactive" }]
+    },
+    {
+      "price": 25,
+      "name": "Crypté",
+      "content": [
+        { "type": "skin_body", "typeinfo": "zero", "count": 1 },
+        { "type": "stick", "count": 2, "typeinfo": "global" },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "camo", "count": 1, "typeinfo": "reactive" },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 25,
+      "name": "Rave",
+      "content": [
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 2, "typeinfo": "global" },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "camo", "count": 1, "typeinfo": "reactive" },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 25,
+      "name": "Bobine de la mort",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "reactive" }]
+    },
+    {
+      "price": 25,
+      "name": "Stop",
+      "content": [
+        { "type": "knife", "count": 1 },
+        { "type": "nodupe", "count": 2 }
+      ]
+    },
+    {
+      "price": 24,
+      "name": "Takeo",
+      "content": [{ "type": "character", "count": 1 }]
+    },
+    {
+      "price": 24,
+      "name": "T.E.D.D.",
+      "content": [
+        { "type": "character", "count": 1 },
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 1, "typeinfo": "global" },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 24,
+      "name": "Hudson",
+      "content": [{ "type": "character", "count": 1 }]
+    },
+    {
+      "price": 24,
+      "name": "Marlton",
+      "content": [{ "type": "character", "count": 1 }]
+    },
+    {
+      "price": 24,
+      "name": "Misty",
+      "content": [
+        { "type": "character", "count": 1 },
+        { "type": "stick", "count": 2, "typeinfo": "global" },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "gesture", "count": 1 },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 24,
+      "name": "Apocalypse",
+      "content": [{ "type": "skin_body", "typeinfo": "spectre", "count": 1 }]
+    },
+    {
+      "price": 20,
+      "name": "Chambre forte",
+      "content": [
+        { "type": "camo", "count": 1, "typeinfo": "reactive" },
+        { "type": "charm", "count": 1 }
+      ]
+    },
+    {
+      "price": 20,
+      "name": "Grey matter",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "reactive" }]
+    },
+    {
+      "price": 20,
+      "name": "Nebuleuse",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "reactive" }]
+    },
+    {
+      "price": 15,
+      "name": "Silvera",
+      "content": [{ "type": "skin_body", "typeinfo": "firebreak", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Fer de lance",
+      "content": [{ "type": "skin_body", "typeinfo": "nomad", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Angelica",
+      "content": [{ "type": "skin_body", "typeinfo": "seraph", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Tueur en carton",
+      "content": [{ "type": "skin_body", "typeinfo": "battery", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Autopsie",
+      "content": [{ "type": "skin_body", "typeinfo": "crash", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Azemiops",
+      "content": [{ "type": "skin_body", "typeinfo": "seraph", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Catacombes",
+      "content": [{ "type": "skin_body", "typeinfo": "seraph", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Resurrection",
+      "content": [{ "type": "skin_body", "typeinfo": "prophet", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Defibrillateur",
+      "content": [{ "type": "skin_body", "typeinfo": "crash", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Vampire",
+      "content": [{ "type": "skin_body", "typeinfo": "reaper", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Benevolencia",
+      "content": [{ "type": "skin_body", "typeinfo": "reacon", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Ojo de vida",
+      "content": [{ "type": "skin_body", "typeinfo": "reacon", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Dia y noche",
+      "content": [{ "type": "skin_body", "typeinfo": "ajax", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Corail",
+      "content": [{ "type": "skin_body", "typeinfo": "outrider", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Usini",
+      "content": [{ "type": "skin_body", "typeinfo": "zero", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Calaca",
+      "content": [{ "type": "skin_body", "typeinfo": "battery", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Sultane",
+      "content": [{ "type": "skin_body", "typeinfo": "zero", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Ronin",
+      "content": [{ "type": "skin_body", "typeinfo": "reacon", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Desatado",
+      "content": [{ "type": "skin_body", "typeinfo": "nomad", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Nebuleuse",
+      "content": [{ "type": "skin_body", "typeinfo": "crash", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Rayos",
+      "content": [{ "type": "skin_body", "typeinfo": "prophet", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Supernova",
+      "content": [{ "type": "skin_body", "typeinfo": "firebreak", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Briseur d'os",
+      "content": [{ "type": "skin_body", "typeinfo": "ruin", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Mai tai",
+      "content": [
+        { "type": "camo", "count": 1, "typeinfo": "basic" },
+        { "type": "charm", "count": 1 }
+      ]
+    },
+    {
+      "price": 15,
+      "name": "Vipére cuivrée",
+      "content": [
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 2, "typeinfo": "global" },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "skin_body", "typeinfo": "battery", "count": 1 },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 15,
+      "name": "Vipère à cornes",
+      "content": [
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 2, "typeinfo": "global" },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "skin_body", "typeinfo": "fireBreak", "count": 1 },
+        { "type": "boost", "count": 1 }
+      ]
+    },
+    {
+      "price": 15,
+      "name": "Martillo",
+      "content": [{ "type": "skin_body", "typeinfo": "torque", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Sous emprise",
+      "content": [{ "type": "skin_body", "typeinfo": "torque", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Carbolicieux",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "basic" }]
+    },
+    {
+      "price": 15,
+      "name": "Python Tapis",
+      "content": [
+        { "type": "gesture", "count": 1 },
+        { "type": "stick", "count": 2, "typeinfo": "global" },
+        { "type": "card", "count": 1, "typeinfo": "global" },
+        { "type": "skin_body", "typeinfo": "crash", "count": 1 }
+      ]
+    },
+    {
+      "price": 15,
+      "name": "Meduse",
+      "content": [{ "type": "skin_body", "typeinfo": "zero", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Tete de cuivre",
+      "content": [{ "type": "skin_body", "typeinfo": "ruin", "count": 1 }]
+    },
+    {
+      "price": 15,
+      "name": "Fleur de cerisier",
+      "content": [
+        { "type": "camo", "count": 1, "typeinfo": "basic" },
+        { "type": "reticle", "count": 2 }
+      ]
+    },
+    {
+      "price": 15,
+      "name": "Pic nique royal",
+      "content": [
+        { "type": "camo", "count": 1, "typeinfo": "basic" },
+        { "type": "charm", "count": 1 }
+      ]
+    },
+    {
+      "price": 15,
+      "name": "Pizza",
+      "content": [
+        { "type": "camo", "count": 1, "typeinfo": "basic" },
+        { "type": "charm", "count": 1 }
+      ]
+    },
+    {
+      "price": 15,
+      "name": "Postluminescence",
+      "content": [
+        { "type": "boost", "count": 1 },
+        { "type": "camo", "count": 1, "typeinfo": "reactive" }
+      ]
+    },
+    {
+      "price": 15,
+      "name": "Goinfre",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "basic" }]
+    },
+    {
+      "price": 15,
+      "name": "Algue",
+      "content": [{ "type": "skin_body", "typeinfo": "torque", "count": 1 }]
+    },
+    {
+      "price": 12,
+      "name": "Touch Down",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 12,
+      "name": "Santé",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 12,
+      "name": "Dance pack",
+      "content": [{ "type": "gesture", "count": 3 }]
+    },
+    {
+      "price": 12,
+      "name": "Drop the mic",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 12,
+      "name": "Peluche",
+      "content": [{ "type": "effect", "count": 1 }]
+    },
+    {
+      "price": 12,
+      "name": "Fin de l'été",
+      "content": [{ "type": "gesture", "count": 4 }]
+    },
+    {
+      "price": 12,
+      "name": "Serment",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "basic" }]
+    },
+    {
+      "price": 12,
+      "name": "Death kiss",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "basic" }]
+    },
+    {
+      "price": 12,
+      "name": "Benjamin",
+      "content": [{ "type": "camo", "count": 1, "typeinfo": "basic" }]
+    },
+    {
+      "price": 12,
+      "name": "Pro de la banane",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 12,
+      "name": "De la balle",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 12,
+      "name": "Funny pack",
+      "content": [{ "type": "gesture", "count": 4 }]
+    },
+    {
+      "price": 9,
+      "name": "Oncle Sam",
+      "content": [{ "type": "jump_pack", "count": 1 }]
+    },
+    {
+      "price": 9,
+      "name": "Sauvage",
+      "content": [{ "type": "jump_pack", "count": 1 }]
+    },
+    {
+      "price": 9,
+      "name": "Grand parieur",
+      "content": [{ "type": "jump_pack", "count": 1 }]
+    },
+    {
+      "price": 9,
+      "name": "Vent chinois",
+      "content": [{ "type": "jump_pack", "count": 1 }]
+    },
+    {
+      "price": 6,
+      "name": "Canardo",
+      "content": [{ "type": "charm", "count": 1 }]
+    },
+    {
+      "price": 6,
+      "name": "Boufon",
+      "content": [{ "type": "warpaint", "count": 1 }]
+    },
+    {
+      "price": 6,
+      "name": "Jackpot",
+      "content": [{ "type": "warpaint", "count": 1 }]
+    },
+    {
+      "price": 5,
+      "name": "Benjamin",
+      "content": [{ "type": "jump_pack", "count": 1 }]
+    },
+    {
+      "price": 5,
+      "name": "Retro",
+      "content": [{ "type": "jump_pack", "count": 1 }]
+    },
+    {
+      "price": 4,
+      "name": "Big fish",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 4,
+      "name": "Jugglenaut",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 4,
+      "name": "Bubulles",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 4,
+      "name": "Silence",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 4,
+      "name": "Fougère",
+      "content": [{ "type": "warpaint", "count": 1 }]
+    },
+    {
+      "price": 4,
+      "name": "Abandon",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 4,
+      "name": "Amorçage",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 4,
+      "name": "Crane enflamme",
+      "content": [{ "type": "warpaint", "count": 1 }]
+    },
+    {
+      "price": 3,
+      "name": "Predigitation",
+      "content": [{ "type": "gesture", "count": 1 }]
+    },
+    {
+      "price": 3,
+      "name": "douce victoire",
+      "content": [{ "type": "charm", "count": 1 }]
+    },
+    {
+      "price": 3,
+      "name": "Cartouche",
+      "content": [{ "type": "charm", "count": 1 }]
+    },
+    {
+      "price": 2,
+      "name": "Pouce en bas",
+      "content": [{ "type": "gesture", "count": 1 }]
+    }
+  ],
   "reserves": [
     {
       "type": "skin_body",
@@ -301,7 +1172,8 @@
       "count": 25,
       "typeinfo": "set"
     },
-    { "type": "weapon", "name": "Weapons", "count": 20 },
+    { "type": "weapon", "name": "Weapons", "count": 19 },
+    { "type": "knife", "name": "Weapons", "count": 1 },
     { "type": "mkii", "name": "MKIIs", "count": 19 },
     { "type": "mastercraft", "name": "Mastercrafts", "count": 10 }
   ]

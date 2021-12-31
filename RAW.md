@@ -43,16 +43,22 @@ This field describes the type of an item, the `typeinfo` field can be omitted if
 | ----------- | ---------------------- | ---------------------------------------- |
 | skin_head   | Skin, head part        | name of the operator                     |
 | skin_body   | Skin, body part        | name of the operator                     |
+| warpaint    | War paint              |                                          |
 | character   | Blackout Character     |                                          |
 | jump_pack   | Blackout jump pack     |                                          |
 | gesture     | Gesture                |                                          |
 | stick       | A sticker or an emblem | `set` if from a set, `global` for others |
+| card        | A card                 | `set` if from a set, `global` for others |
 | weapon      | Base weapon            |                                          |
+| knife       | Knife                  |                                          |
 | mkii        | MKII weapon            |                                          |
 | mastercraft | Mastercraft            |                                          |
 | camo        | Camo                   | `reactive` or `basic`                    |
 | charm       | Charm                  |                                          |
 | effect      | Death Effect           |                                          |
+| nodupe      | No dupe crate          |                                          |
+| boost       | +5% tier boost         |                                          |
+| reticle     | Reticle                |                                          |
 
 ### Name of operator
 
