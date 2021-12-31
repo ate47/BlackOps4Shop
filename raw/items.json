@@ -1,0 +1,308 @@
+{
+  "shop_items": [],
+  "reserves": [
+    {
+      "type": "skin_body",
+      "typeinfo": "ajax",
+      "name": "Ajax body",
+      "count": 27
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "ajax",
+      "name": "Ajax head",
+      "count": 21
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "battery",
+      "name": "Battery body",
+      "count": 26
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "battery",
+      "name": "Battery head",
+      "count": 20
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "crash",
+      "name": "Crash body",
+      "count": 22
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "crash",
+      "name": "Crash head",
+      "count": 19
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "firebreak",
+      "name": "Firebreak body",
+      "count": 21
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "firebreak",
+      "name": "Firebreak head",
+      "count": 20
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "nomad",
+      "name": "Nomad body",
+      "count": 25
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "nomad",
+      "name": "Nomad head",
+      "count": 18
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "prophet",
+      "name": "Prophet body",
+      "count": 22
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "prophet",
+      "name": "Prophet head",
+      "count": 19
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "recon",
+      "name": "Recon body",
+      "count": 27
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "recon",
+      "name": "Recon head",
+      "count": 21
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "ruin",
+      "name": "Ruin body",
+      "count": 24
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "ruin",
+      "name": "Ruin head",
+      "count": 20
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "seraph",
+      "name": "Seraph body",
+      "count": 25
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "seraph",
+      "name": "Seraph head",
+      "count": 22
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "torque",
+      "name": "Torque body",
+      "count": 23
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "torque",
+      "name": "Torque head",
+      "count": 21
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "zero",
+      "name": "Zero body",
+      "count": 16
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "zero",
+      "name": "Zero head",
+      "count": 5
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "outrider",
+      "name": "Outrider body",
+      "count": 6
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "outrider",
+      "name": "Outrider head",
+      "count": 5
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "spectre",
+      "name": "Spectre body",
+      "count": 2
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "spectre",
+      "name": "Spectre head",
+      "count": 5
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "reaper",
+      "name": "Reaper body",
+      "count": 1
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "reaper",
+      "name": "Reaper head",
+      "count": 1
+    },
+    {
+      "type": "skin_body",
+      "typeinfo": "zombies",
+      "name": "Zombies body",
+      "count": 0
+    },
+    {
+      "type": "skin_head",
+      "typeinfo": "zombies",
+      "name": "Zombies head",
+      "count": 59
+    },
+    {
+      "type": "camo",
+      "typeinfo": "reactive",
+      "name": "After Life",
+      "count": 25
+    },
+    {
+      "type": "camo",
+      "typeinfo": "reactive",
+      "name": "Eruption So",
+      "count": 24
+    },
+    {
+      "type": "camo",
+      "typeinfo": "reactive",
+      "name": "Futur Visi",
+      "count": 23
+    },
+    {
+      "type": "camo",
+      "typeinfo": "reactive",
+      "name": "Pestilence",
+      "count": 26
+    },
+    { "type": "camo", "typeinfo": "basic", "name": "Arabesque", "count": 27 },
+    { "type": "camo", "typeinfo": "basic", "name": "Blue", "count": 27 },
+    { "type": "camo", "typeinfo": "basic", "name": "Bulle salet", "count": 26 },
+    { "type": "camo", "typeinfo": "basic", "name": "Cactus lun", "count": 27 },
+    { "type": "camo", "typeinfo": "basic", "name": "Dead time", "count": 26 },
+    { "type": "camo", "typeinfo": "basic", "name": "Derezzed", "count": 26 },
+    { "type": "camo", "typeinfo": "basic", "name": "Flocon", "count": 27 },
+    { "type": "camo", "typeinfo": "basic", "name": "Gluant", "count": 26 },
+    { "type": "camo", "typeinfo": "basic", "name": "Gratte", "count": 26 },
+    { "type": "camo", "typeinfo": "basic", "name": "Green", "count": 27 },
+    { "type": "camo", "typeinfo": "basic", "name": "Haven", "count": 26 },
+    { "type": "camo", "typeinfo": "basic", "name": "High Tens", "count": 26 },
+    { "type": "camo", "typeinfo": "basic", "name": "Imbu", "count": 27 },
+    { "type": "camo", "typeinfo": "basic", "name": "Impérissabl", "count": 27 },
+    { "type": "camo", "typeinfo": "basic", "name": "Judas", "count": 26 },
+    { "type": "camo", "typeinfo": "basic", "name": "Jurassic", "count": 26 },
+    { "type": "camo", "typeinfo": "basic", "name": "Juteux", "count": 28 },
+    { "type": "camo", "typeinfo": "basic", "name": "Megalodon", "count": 25 },
+    { "type": "camo", "typeinfo": "basic", "name": "Pink", "count": 26 },
+    { "type": "camo", "typeinfo": "basic", "name": "Steam Expl", "count": 27 },
+    { "type": "camo", "typeinfo": "basic", "name": "Surf", "count": 27 },
+    { "type": "camo", "typeinfo": "basic", "name": "Vertige", "count": 25 },
+    { "type": "charm", "name": "54Eggs", "count": 8 },
+    { "type": "charm", "name": "Avocadro", "count": 6 },
+    { "type": "charm", "name": "BO4 logo", "count": 9 },
+    { "type": "charm", "name": "Banana", "count": 4 },
+    { "type": "charm", "name": "Sexy Banana", "count": 3 },
+    { "type": "charm", "name": "Beau monde", "count": 10 },
+    { "type": "charm", "name": "Beer", "count": 7 },
+    { "type": "charm", "name": "BubFish", "count": 7 },
+    { "type": "charm", "name": "Carl", "count": 8 },
+    { "type": "charm", "name": "Crystals", "count": 5 },
+    { "type": "charm", "name": "Cube", "count": 8 },
+    { "type": "charm", "name": "Dice", "count": 6 },
+    { "type": "charm", "name": "Dice 2", "count": 4 },
+    { "type": "charm", "name": "Dog", "count": 8 },
+    { "type": "charm", "name": "Donut", "count": 6 },
+    { "type": "charm", "name": "Douiller", "count": 2 },
+    { "type": "charm", "name": "Boule acier", "count": 6 },
+    { "type": "charm", "name": "Emplumé", "count": 6 },
+    { "type": "charm", "name": "Fire sale", "count": 6 },
+    { "type": "charm", "name": "Froid", "count": 4 },
+    { "type": "charm", "name": "Heure", "count": 6 },
+    { "type": "charm", "name": "Internaute", "count": 5 },
+    { "type": "charm", "name": "Kawaii", "count": 9 },
+    { "type": "charm", "name": "Keytar", "count": 8 },
+    { "type": "charm", "name": "Lava Lamp", "count": 8 },
+    { "type": "charm", "name": "Laser", "count": 9 },
+    { "type": "charm", "name": "Little Don", "count": 5 },
+    { "type": "charm", "name": "Livraison", "count": 10 },
+    { "type": "charm", "name": "Maneki-neko", "count": 8 },
+    { "type": "charm", "name": "Melon", "count": 5 },
+    { "type": "charm", "name": "Mini Expl", "count": 8 },
+    { "type": "charm", "name": "Monty", "count": 7 },
+    { "type": "charm", "name": "Occuped", "count": 6 },
+    { "type": "charm", "name": "Oni", "count": 8 },
+    { "type": "charm", "name": "Peach", "count": 7 },
+    { "type": "charm", "name": "Science", "count": 10 },
+    { "type": "charm", "name": "Skateboard", "count": 4 },
+    { "type": "charm", "name": "Slam dunk", "count": 10 },
+    { "type": "charm", "name": "Steak", "count": 6 },
+    { "type": "charm", "name": "Tacti", "count": 11 },
+    { "type": "charm", "name": "Tanuki", "count": 7 },
+    { "type": "charm", "name": "Tea", "count": 7 },
+    { "type": "charm", "name": "Toilet", "count": 10 },
+    { "type": "charm", "name": "Toilet 2", "count": 10 },
+    { "type": "charm", "name": "UFO", "count": 7 },
+    { "type": "charm", "name": "Upload", "count": 8 },
+    { "type": "charm", "name": "Wahine", "count": 7 },
+    { "type": "charm", "name": "Waxee", "count": 9 },
+    { "type": "charm", "name": "Zero", "count": 5 },
+    { "type": "effect", "name": "Money", "count": 25 },
+    { "type": "effect", "name": "wet", "count": 24 },
+    { "type": "effect", "name": "Ice", "count": 26 },
+    { "type": "effect", "name": "Party", "count": 24 },
+    { "type": "effect", "name": "Provoc", "count": 25 },
+    { "type": "effect", "name": "Soul", "count": 24 },
+    { "type": "effect", "name": "Pyro", "count": 23 },
+    { "type": "effect", "name": "Nature", "count": 23 },
+    { "type": "effect", "name": "Black Hole", "count": 23 },
+
+    { "type": "character", "name": "Blackout Characters", "count": 8 },
+    { "type": "jump_pack", "name": "Jump packs", "count": 7 },
+    { "type": "gesture", "name": "Gesture", "count": 32 },
+    {
+      "type": "stick",
+      "name": "Stick/Emblem",
+      "count": 115,
+      "typeinfo": "global"
+    },
+    {
+      "type": "stick",
+      "name": "Stick/Emblem",
+      "count": 25,
+      "typeinfo": "set"
+    },
+    { "type": "weapon", "name": "Weapons", "count": 20 },
+    { "type": "mkii", "name": "MKIIs", "count": 19 },
+    { "type": "mastercraft", "name": "Mastercrafts", "count": 10 }
+  ]
+}

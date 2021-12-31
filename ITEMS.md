@@ -10,22 +10,22 @@
 
 ## Loot boxes items
 
-Total count: `2012`
+Total count: `2020`
 
-| Type              | Count |
-| ----------------- | ----- |
-| Caracter ST       | 541   |
-| Caracter Blackout | 8     |
-| Jump Pack         | 7     |
-| Gesture           | 32    |
-| Stick/Emblm       | 115   |
-| + Sets            | 25    |
-| Weapons           | 12    |
-| MK II             | 19    |
-| Mastercraft       | 10    |
-| Camos             | 676   |
-| Charms            | 338   |
-| Death Eff.        | 214   |
+| Type               | Count |
+| ------------------ | ----- |
+| Character ST       | 541   |
+| Character Blackout | 8     |
+| Jump Pack          | 7     |
+| Gesture            | 32    |
+| Stick/Emblm        | 115   |
+| + Sets             | 25    |
+| Weapons            | 20    |
+| MK II              | 19    |
+| Mastercraft        | 10    |
+| Camos              | 676   |
+| Charms             | 338   |
+| Death Eff.         | 214   |
 
 ### Operator items
 
@@ -45,7 +45,7 @@ Total count: `2012`
 | Outrider  | 6    | 5    |
 | Spectre   | 2    | 5    |
 | Reaper    | 1    | 1    |
-| Zombie    | 0    | 59   |
+| Zombies   | 0    | 59   |
 
 ### Camos
 
