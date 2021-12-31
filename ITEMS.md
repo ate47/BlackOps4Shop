@@ -171,7 +171,7 @@ Cost: `2975`
 | +5%                   | 17    |
 
 | Price | Name              | Contain                                                     |
-| ----- | ----------------- | ----------------------------------------------------------- | --- | --------- |
+| ----- | ----------------- | ----------------------------------------------------------- |
 | 65    | Weapons rain      | 2 Mastercraft + 2 RCamo + 2 MK2 + Set Stick + Set Card + 5% |
 | 60    | ABR 223 MKII      | MK2 + NoDupe                                                |
 | 60    | Paladin MKII      | MK2 + NoDupe                                                |
@@ -191,7 +191,7 @@ Cost: `2975`
 | 35    | Cloche            | Weapon + 2 NoDupe                                           |
 | 35    | Outrider Serie 6  | Weapon + 2 NoDupe + Gesture                                 |
 | 35    | Revers            | Weapon + Gesture + 2 NoDupe                                 |
-| 35    | Clan chef         | 5%                                                          |     | Ruin skin |
+| 35    | Clan chef         | 5% + Ruin skin                                              |
 | 35    | ICR MK2           | RCamo + MK2 + Mastercraft + 1 NoDupe                        |
 | 30    | Seducteur         | Blackout Menedez Character                                  |
 | 30    | Excalibur         | Battery Skin                                                |
@@ -215,7 +215,7 @@ Cost: `2975`
 | 30    | Stuhlinger        | Character + 5%                                              |
 | 30    | Cheerleader       | Outrider skin                                               |
 | 30    | Sergei            | Character + Gesture + Stick + 5%                            |
-| 30    | Richtofen         | Character + 6 Stick                                         | Set | + 5%      |
+| 30    | Richtofen         | Character + 6 Stick Set + 5%                                |
 | 30    | Spectral          | Spectre skin                                                |
 | 30    | Cap'tain          | Prophet skin                                                |
 | 30    | Chaman            | Crash skin                                                  |
