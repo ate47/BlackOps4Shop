@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "render bo4 shop item data",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "render": "node index.js"
   },

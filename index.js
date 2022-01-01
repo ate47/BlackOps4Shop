@@ -1,113 +1,40 @@
-const fs = require("fs");
+import { mkdirSync, writeFileSync } from "fs";
+import {
+  items,
+  reserveItems,
+  averageCrates,
+  averageCrates75,
+  fullDupePrice,
+  shopItems,
+  shopItemPrices,
+  noDupeCount,
+  grandTotal,
+  grandTotal75,
+  grandTotalFP,
+  typesReserve,
+  typesShop,
+} from "./reserves.js";
+
+import { pie, select, arc } from "d3";
+
+import { JSDOM } from "jsdom";
 
 /*******************************************************
  *             Load and prepare workspace              *
  *******************************************************/
 
 // Create output dir
-fs.mkdirSync("out", { recursive: true });
-
-// items data
-const items = JSON.parse(fs.readFileSync("raw/items.json"));
+mkdirSync("out", { recursive: true });
 
 /*******************************************************
  *               Compute Reserve Numbers               *
  *******************************************************/
 
-// count of reserve items
-const reserveItems = items.reserves
-  .map((item) => item.count)
-  .reduce((a, b) => a + b);
-// count of premium items
-const shopItems = items.shop_items
-  .map((item) => item.content.map((item) => item.count).reduce((a, b) => a + b))
-  .reduce((a, b) => a + b);
-// price of premium items
-const shopItemPrices = items.shop_items
-  .map((item) => item.price)
-  .reduce((a, b) => a + b);
-// noDupe inside premium items
-const noDupeCount = items.shop_items
-  .map((item) => {
-    const noDupes = item.content
-      .filter((it) => it.type === "nodupe")
-      .map((it) => it.count);
-    if (noDupes.length === 0) {
-      return 0;
-    }
-    return noDupes.reduce((a, b) => a + b);
-  })
-  .reduce((a, b) => a + b);
-
-/**
- * Compute the average reserve crates required to complete the reserve,
- * the function will assume that all the items have the same chance to
- * be in a reserve.
- * @param {number} items number of reserve items
- * @returns {number} the average crate count
- */
-const countAverageCrates = (items) => {
-  let c = 0;
-  let total = 0.0;
-
-  while (total < items) {
-    c++;
-    // probability to get an item
-    const newItemProba = (items - total) / items;
-    // probability to get a duplicated item
-    const dupeProba = total / items;
-
-    // add to our total the new item 1/3 for the duplicate (because after
-    // 3 duplicates, we have 1 nodupe item)
-    total += newItemProba + (dupeProba * 1) / 3;
-  }
-  return c;
-};
-
-/**
- * Same as countAverageCrates(items), but stop once we have 75% of the items,
- * we then open nodupe crates (2 crates = 1 item)
- * @param {number} items number of reserve items
- * @returns {number} the average crate count
- */
-const countAverageCrates75 = (items) => {
-  let c = 0;
-  let total = 0.0;
-
-  const items75 = items * 0.75;
-
-  while (total < items75) {
-    c++;
-    // probability to get an item
-    const newItemProba = (items - total) / items;
-    // probability to get a duplicated item
-    const dupeProba = total / items;
-
-    // add to our total the new item 1/3 for the duplicate (because after
-    // 3 duplicates, we have 1 nodupe item)
-    total += newItemProba + (dupeProba * 1) / 3;
-  }
-
-  // required items
-  const items25 = items - items75;
-
-  // *2 because 1 item = 2 crates
-  return c + items25 * 2;
-};
-
-// dumb reserve price (all reserves are bought using noDupe crates)
-const fullDupePrice = reserveItems * 2;
-const averageCrates = countAverageCrates(reserveItems);
-const averageCrates75 = countAverageCrates75(reserveItems);
-
-const grandTotal = shopItemPrices + averageCrates - noDupeCount * 3;
-const grandTotal75 = shopItemPrices + averageCrates75 - noDupeCount * 3;
-const grandTotalFP = shopItemPrices + fullDupePrice - noDupeCount * 3;
-
 console.log("Reserves items:           " + reserveItems);
 console.log("Reserves average count:   " + averageCrates);
 console.log("Reserves avg 75% count:   " + averageCrates75);
 console.log("Reserves full dupe count: " + fullDupePrice);
+console.log("Premium bundles:          " + items.shop_items.length);
 console.log("Premium items:            " + shopItems);
 console.log("Premium price:            " + shopItemPrices);
 console.log("Premium no dupe crates:   " + noDupeCount);
@@ -126,3 +53,137 @@ console.log(
     Math.floor(100 - (grandTotal / grandTotalFP) * 100) +
     "%)"
 );
+
+/*******************************************************
+ *                     D3 Graphs                       *
+ *******************************************************/
+
+const colours = [
+  "#F77",
+  "#7F7",
+  "#77F",
+  "#FF7",
+  "#7FF",
+  "#F7F",
+  "#Faa",
+  "#aFa",
+  "#aaF",
+  "#FFa",
+  "#aFF",
+  "#FaF",
+  "#aaa",
+  "#777",
+  "#fff",
+  "#F00",
+  "#0F0",
+  "#00F",
+  "#FF0",
+  "#F0F",
+  "#0FF",
+];
+const createPie = (output, data, title) => {
+  const window = new JSDOM(`<html><head></head><body></body></html>`, {
+    pretendToBeVisual: true,
+  }).window;
+
+  window.d3 = select(window.document); //get d3 into the dom
+
+  const w = 625,
+    h = 625;
+
+  const arce = arc()
+    .outerRadius(w / 2 - 10)
+    .innerRadius(0);
+
+  const svg = window.d3
+    .select("body")
+    .append("div")
+    .attr("class", "container") //make a container div to ease the saving process
+    .append("svg")
+    .attr("xmlns", "http://www.w3.org/2000/svg")
+    .attr("width", `${w * 2}`)
+    .attr("height", `${h * 1.25}`)
+    .append("g")
+    .attr("transform", "translate(" + w + "," + (h / 2 + 48) + ")");
+
+  svg
+    .append("rect")
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .attr("transform", "translate(-" + w + ",-" + (h / 2 + 48) + ")")
+    .attr("fill", "#333");
+
+  const pielayout = pie()
+    .value(function (d) {
+      return d.count;
+    })
+    .sort(null);
+  svg
+    .selectAll(".arc")
+    .data(pielayout(data))
+    .enter()
+    .append("path")
+    .attr("class", "arc")
+    .attr("d", arce)
+    .attr("fill", function (d, i) {
+      return colours[i];
+    })
+    .attr("stroke", "#444");
+
+  const legendG = svg
+    .selectAll(".legend")
+    .data(pielayout(data))
+    .enter()
+    .append("g")
+    .attr("transform", function (d, i) {
+      return "translate(" + (-w + 30) + "," + (-data.length / 2 + i) * 35 + ")";
+    })
+    .attr("class", "legend");
+
+  legendG
+    .append("rect")
+    .attr("width", 30)
+    .attr("height", 30)
+    .attr("fill", function (d, i) {
+      return colours[i];
+    })
+    .attr("stroke", "#444");
+
+  legendG
+    .append("text")
+    .text(function (d) {
+      return d.data.type + ": " + d.value;
+    })
+    .attr("font-size", 28)
+    .attr("y", 22)
+    .attr("x", 36)
+    .attr("fill", "#EEE");
+
+  svg
+    .append("text")
+    .attr("font-size", 28)
+    .text("Total: " + data.map((item) => item.count).reduce((a, b) => a + b))
+    .attr(
+      "transform",
+      "translate(" + (-w + 30) + "," + ((data.length / 2) * 35 + 30) + ")"
+    )
+    .attr("fill", "#EEE");
+
+  svg
+    .append("text")
+    .attr("font-size", 48)
+    .text(title)
+    .attr("transform", "translate(0," + (h / 2 + 48) + ")")
+    .attr("text-anchor", "middle")
+    .attr("fill", "#FFF");
+
+  writeFileSync(output, window.d3.select(".container").html()); //using sync to keep the code simple
+};
+
+createPie(
+  "out/typesReserve.svg",
+  typesReserve,
+  "Type of each item inside the reserves"
+);
+
+createPie("out/typesShop.svg", typesShop, "Type of each item inside the shop");
