@@ -34,7 +34,7 @@ const stats = [
   "Reserves items:           " + reserveItems,
   "Reserves average count:   " + averageCrates,
   "Reserves avg 75% count:   " + averageCrates75,
-  "Reserves full dupe count: " + fullDupePrice,
+  "Reserves full no dupe count: " + fullDupePrice,
   "Premium bundles:          " + items.shop_items.length,
   "Premium items:            " + shopItems,
   "Premium price:            " + shopItemPrices,
@@ -45,7 +45,7 @@ const stats = [
     " (-" +
     Math.floor(100 - (grandTotal75 / grandTotal) * 100) +
     "%)",
-  "Grand total full dupe:    " +
+  "Grand total full no dupe:    " +
     grandTotalFP +
     " (+" +
     Math.floor(100 - (grandTotal / grandTotalFP) * 100) +

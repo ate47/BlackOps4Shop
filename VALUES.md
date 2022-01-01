@@ -21,14 +21,14 @@
 - **Reserves items**: Number of items in the reserves
 - **Reserves average count**: Average number of reserves required to complete all the reserves\*
 - **Reserves avg 75% count**: Average number of reserves required to complete all the reserves, by using nodupe crates after owning 75% of the reserves, see [Why 75%?](#why-75)\*
-- **Reserves full dupe count**: Number of reserves required to complete all the reserves by only using nodupe crates
+- **Reserves full no dupe count**: Number of reserves required to complete all the reserves by only using nodupe crates
 - **Premium bundles**: Number of bundles in the shop\*\*
 - **Premium items**: Number of items in the bundles in the shop\*\*
 - **Premium price**: Total price of the bundles\*\*
 - **Premium no dupe crates**: Number of no dupe crates inside the bundles\*\*
 - **Grand total**: Average number required to complete the black market \*\*,\*
 - **Grand total (75%)**: Average number required to complete the black market, by using nodupe crates after owning 75% of the reserves, see [Why 75%?](#why-75) \*\*,\*
-- **Grand total full dupe**: Number required to complete the black market by only using nodupe crates to get reserves. \*\*
+- **Grand total full no dupe**: Number required to complete the black market by only using nodupe crates to get reserves. \*\*
 
 \* - Average numbers are assuming that all the items have the same chance to drop.
 \*\* - without counting old season items
