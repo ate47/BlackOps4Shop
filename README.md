@@ -1,10 +1,21 @@
 # BlackOps4Shop
 
 - [BlackOps4Shop](#blackops4shop)
+  - [Values](#values)
   - [Diclaimers](#diclaimers)
   - [Links](#links)
 
 Just a repo to store the elements in the store of the Call of Duty: Black Ops 4 black market.
+
+## Values
+
+[More details here](VALUES.md).
+
+![shop image](https://github.com/ate47/BlackOps4Shop/blob/output/typesShop.svg)
+
+![reserve image](https://github.com/ate47/BlackOps4Shop/blob/output/typesReserve.svg)
+
+![stats image](https://github.com/ate47/BlackOps4Shop/blob/output/stats.svg)
 
 ## Diclaimers
 
