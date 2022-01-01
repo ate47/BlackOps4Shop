@@ -7,6 +7,8 @@
 
 Just a repo to store the elements in the store of the Call of Duty: Black Ops 4 black market.
 
+[The Reddit post](https://www.reddit.com/r/Blackops4/comments/rtakc4/last_week_some_people_me_the_items_in_the_shop/).
+
 ## Values
 
 [More details here](VALUES.md).
