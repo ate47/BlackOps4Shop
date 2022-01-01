@@ -30,29 +30,29 @@ mkdirSync("out", { recursive: true });
  *               Compute Reserve Numbers               *
  *******************************************************/
 
-console.log("Reserves items:           " + reserveItems);
-console.log("Reserves average count:   " + averageCrates);
-console.log("Reserves avg 75% count:   " + averageCrates75);
-console.log("Reserves full dupe count: " + fullDupePrice);
-console.log("Premium bundles:          " + items.shop_items.length);
-console.log("Premium items:            " + shopItems);
-console.log("Premium price:            " + shopItemPrices);
-console.log("Premium no dupe crates:   " + noDupeCount);
-console.log("Grand total:              " + grandTotal);
-console.log(
+const stats = [
+  "Reserves items:           " + reserveItems,
+  "Reserves average count:   " + averageCrates,
+  "Reserves avg 75% count:   " + averageCrates75,
+  "Reserves full dupe count: " + fullDupePrice,
+  "Premium bundles:          " + items.shop_items.length,
+  "Premium items:            " + shopItems,
+  "Premium price:            " + shopItemPrices,
+  "Premium no dupe crates:   " + noDupeCount,
+  "Grand total:              " + grandTotal,
   "Grand total (75%):        " +
     grandTotal75 +
     " (-" +
     Math.floor(100 - (grandTotal75 / grandTotal) * 100) +
-    "%)"
-);
-console.log(
+    "%)",
   "Grand total full dupe:    " +
     grandTotalFP +
     " (+" +
     Math.floor(100 - (grandTotal / grandTotalFP) * 100) +
-    "%)"
-);
+    "%)",
+];
+
+stats.forEach((it) => console.log(it));
 
 /*******************************************************
  *                     D3 Graphs                       *
@@ -86,7 +86,7 @@ const createPie = (output, data, title) => {
     pretendToBeVisual: true,
   }).window;
 
-  window.d3 = select(window.document); //get d3 into the dom
+  window.d3 = select(window.document);
 
   const w = 625,
     h = 625;
@@ -98,7 +98,7 @@ const createPie = (output, data, title) => {
   const svg = window.d3
     .select("body")
     .append("div")
-    .attr("class", "container") //make a container div to ease the saving process
+    .attr("class", "container")
     .append("svg")
     .attr("xmlns", "http://www.w3.org/2000/svg")
     .attr("width", `${w * 2}`)
@@ -177,7 +177,7 @@ const createPie = (output, data, title) => {
     .attr("text-anchor", "middle")
     .attr("fill", "#FFF");
 
-  writeFileSync(output, window.d3.select(".container").html()); //using sync to keep the code simple
+  writeFileSync(output, window.d3.select(".container").html());
 };
 
 createPie(
@@ -187,3 +187,46 @@ createPie(
 );
 
 createPie("out/typesShop.svg", typesShop, "Type of each item inside the shop");
+
+((output) => {
+  const window = new JSDOM(`<html><head></head><body></body></html>`, {
+    pretendToBeVisual: true,
+  }).window;
+
+  window.d3 = select(window.document);
+
+  const w = 625,
+    h = 625;
+
+  const svg = window.d3
+    .select("body")
+    .append("div")
+    .attr("class", "container")
+    .append("svg")
+    .attr("xmlns", "http://www.w3.org/2000/svg")
+    .attr("width", `${w * 2}`)
+    .attr("height", `${h * 1.25}`)
+    .append("g")
+    .attr("transform", "translate(" + w + "," + (h * 1.25) / 2 + ")");
+
+  svg
+    .append("rect")
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .attr("transform", "translate(-" + w + ",-" + (h * 1.25) / 2 + ")")
+    .attr("fill", "#333");
+
+  stats.forEach((line, index) => {
+    svg
+      .append("text")
+      .attr("font-size", 28)
+      .text(line)
+      .attr(
+        "transform",
+        "translate(0," + (-stats.length / 2 + index) * 40 + ")"
+      )
+      .attr("text-anchor", "middle")
+      .attr("fill", "#FFF");
+  });
+  writeFileSync(output, window.d3.select(".container").html());
+})("out/stats.svg");
