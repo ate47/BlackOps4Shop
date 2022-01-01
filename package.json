@@ -1,0 +1,28 @@
+{
+  "name": "blackops4shop",
+  "version": "1.0.0",
+  "description": "render bo4 shop item data",
+  "main": "index.js",
+  "scripts": {
+    "render": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ate47/BlackOps4Shop.git"
+  },
+  "keywords": [
+    "raw-data",
+    "blackop4",
+    "lootboxes"
+  ],
+  "author": "ATE47",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ate47/BlackOps4Shop/issues"
+  },
+  "homepage": "https://github.com/ate47/BlackOps4Shop#readme",
+  "dependencies": {
+    "d3": "^7.2.1",
+    "jsdom": "^19.0.0"
+  }
+}
