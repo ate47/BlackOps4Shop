@@ -67,4 +67,4 @@ items / total >= 3/4
 items >= total * 3/4
 ```
 
-So we have to have at least `3/4 = 75%` of the items to start opening no dupe crates. CQFD.
+So we have to have at least `3/4 = 75%` of the items to start opening no dupe crates. QED.
